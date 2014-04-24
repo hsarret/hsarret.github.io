@@ -6,6 +6,16 @@
       <description>Most recent changes with links to updates.</description>
       <language>en</language>
          <item>
+            <title>Version 0.1 (8)</title>
+            <description><![CDATA[
+               <h2>Bug fix</h2>
+               <p>Better filtering of file</p>
+             ]]>
+            </description>
+            <pubDate>Wed, 24 Apr 2014 14:26:00 +0000</pubDate>
+            <enclosure url="http://hsarret.github.io/scymodyo/scymodyo0.1.8.zip" sparkle:version="8" sparkle:shortVersionString="0.1" length="2534258" type="application/octet-stream" sparkle:dsaSignature="MCwCFChh6poZmDlqRLw4jTJATvihshKuAhQ8dUpB4Z+Ux87QJedvI6hXaeX2gA==" />
+         </item>
+         <item>
             <title>Version 0.1.7</title>
             <description><![CDATA[
                <h2>Test Update</h2>
