@@ -6,6 +6,17 @@
       <description>Most recent changes with links to updates.</description>
       <language>en</language>
          <item>
+            <title>Version 0.1 (11)</title>
+            <description><![CDATA[
+               <h2>Features</h2>
+               <p>Close Minimize & Maximize</p>
+               <p>BigSmallIze</p>
+             ]]>
+            </description>
+            <pubDate>Sat, 10 May 2014 17:31:00 +0000</pubDate>
+            <enclosure url="http://hsarret.github.io/scymodyo/scymodyo0.1.11.zip" sparkle:version="11" sparkle:shortVersionString="0.1" length="2612528" type="application/octet-stream" sparkle:dsaSignature="MCwCFBeSdvdjfgbio7hKxameI8QWfc7ZAhR/Zwzt8I8ArJwJPBipVo5KwUxf4Q==" />
+         </item>
+         <item>
             <title>Version 0.1 (10)</title>
             <description><![CDATA[
                <h2>Fixes</h2>
