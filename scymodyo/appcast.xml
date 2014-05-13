@@ -6,6 +6,16 @@
       <description>Most recent changes with links to updates.</description>
       <language>en</language>
          <item>
+            <title>Version 0.1 (13)</title>
+            <description><![CDATA[
+               <h2>Fix</h2>
+               <p>SoundCloud with no favorite</p>
+             ]]>
+            </description>
+            <pubDate>Tue, 13 May 2014 12:13:00 +0000</pubDate>
+            <enclosure url="http://hsarret.github.io/scymodyo/scymodyo0.1.13.zip" sparkle:version="13" sparkle:shortVersionString="0.1" length="2614014" type="application/octet-stream" sparkle:dsaSignature="MCwCFBK6bTxyqmPqlEFPSNWerV4K7npgAhRJcaXUOE+WaHvnhE5JNxYGdz5mTQ==" />
+         </item>
+         <item>
             <title>Version 0.1 (12)</title>
             <description><![CDATA[
                <h2>Fix</h2>
