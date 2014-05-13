@@ -6,6 +6,17 @@
       <description>Most recent changes with links to updates.</description>
       <language>en</language>
          <item>
+            <title>Version 0.1 (12)</title>
+            <description><![CDATA[
+               <h2>Fix</h2>
+               <p>Youtube with no playlist</p>
+               <p>Youtube with empty playlist(s)</p>
+             ]]>
+            </description>
+            <pubDate>Tue, 13 May 2014 11:49:00 +0000</pubDate>
+            <enclosure url="http://hsarret.github.io/scymodyo/scymodyo0.1.12.zip" sparkle:version="12" sparkle:shortVersionString="0.1" length="2613827" type="application/octet-stream" sparkle:dsaSignature="MCwCFCmqYrynk0FtocxCY8xEbbYGywEWAhRYbvtUmv5APQjeS3JJVOJpiRHqHw==" />
+         </item>
+         <item>
             <title>Version 0.1 (11)</title>
             <description><![CDATA[
                <h2>Features</h2>
