@@ -6,6 +6,16 @@
       <description>Most recent changes with links to updates.</description>
       <language>en</language>
          <item>
+            <title>Version 0.1 (16)</title>
+            <description><![CDATA[
+               <h2>Fix</h2>
+               <p>Youtube</p>
+             ]]>
+            </description>
+            <pubDate>Fri, 16 May 2014 16:20:00 +0000</pubDate>
+            <enclosure url="http://hsarret.github.io/scymodyo/scymodyo0.1.16.zip" sparkle:version="16" sparkle:shortVersionString="0.1" length="2877737" type="application/octet-stream" sparkle:dsaSignature="MCwCFFfPUgrb9hTxB0yRqaHmtCREr/t3AhQJv3QbBGYL42EAvDmwy6RKjAZp9g==" />
+         </item>
+         <item>
             <title>Version 0.1 (15)</title>
             <description><![CDATA[
                <h2>Whats new</h2>
