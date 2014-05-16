@@ -6,6 +6,16 @@
       <description>Most recent changes with links to updates.</description>
       <language>en</language>
          <item>
+            <title>Version 0.1 (15)</title>
+            <description><![CDATA[
+               <h2>Whats new</h2>
+               <p>Better OSX notification</p>
+             ]]>
+            </description>
+            <pubDate>Fri, 16 May 2014 16:20:00 +0000</pubDate>
+            <enclosure url="http://hsarret.github.io/scymodyo/scymodyo0.1.15.zip" sparkle:version="15" sparkle:shortVersionString="0.1" length="2876706" type="application/octet-stream" sparkle:dsaSignature="MCwCFC9ezPN/GJS0Smno8wZpqf8NjdL3AhQoqueJuoSFgtzKIScAxS3TD6uSqg==" />
+         </item>
+         <item>
             <title>Version 0.1 (14)</title>
             <description><![CDATA[
                <h2>Whats new</h2>
