@@ -6,6 +6,21 @@
       <description>Most recent changes with links to updates.</description>
       <language>en</language>
          <item>
+            <title>Version 0.1 (14)</title>
+            <description><![CDATA[
+               <h2>Whats new</h2>
+               <p>OSX notification WIP</p>
+               <p>Crashlytics integration</p>
+               <p>Credits</p>
+               <h2>Fixes</h2>
+               <p>Optimized removing songs process from 52 seconds to instant !</p>
+               <p>Interoperability between settings and app</p>
+             ]]>
+            </description>
+            <pubDate>Fri, 16 May 2014 10:20:00 +0000</pubDate>
+            <enclosure url="http://hsarret.github.io/scymodyo/scymodyo0.1.14.zip" sparkle:version="14" sparkle:shortVersionString="0.1" length="2875993" type="application/octet-stream" sparkle:dsaSignature="MCwCFDfBAlkpwHUb4jWwIGkIYLSYrP+KAhRp9M5m+JRzgS2XvgUdDsGyS2mxKA==" />
+         </item>
+         <item>
             <title>Version 0.1 (13)</title>
             <description><![CDATA[
                <h2>Fix</h2>
