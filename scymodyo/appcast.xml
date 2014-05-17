@@ -6,6 +6,16 @@
       <description>Most recent changes with links to updates.</description>
       <language>en</language>
          <item>
+            <title>Version 0.1 (17)</title>
+            <description><![CDATA[
+               <h2>Fix</h2>
+               <p>Missing framework</p>
+             ]]>
+            </description>
+            <pubDate>Sat, 17 May 2014 09:12:00 +0000</pubDate>
+            <enclosure url="http://hsarret.github.io/scymodyo/scymodyo0.1.17.zip" sparkle:version="17" sparkle:shortVersionString="0.1" length="2683738" type="application/octet-stream" sparkle:dsaSignature="MCwCFCPSjsF5D+sKCIRbi62Pvu90zEcUAhR1nB48vERw9zENDuHajWz+d1k8MA==" />
+         </item>
+         <item>
             <title>Version 0.1 (16)</title>
             <description><![CDATA[
                <h2>Fix</h2>
