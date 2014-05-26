@@ -6,6 +6,19 @@
       <description>Most recent changes with links to updates.</description>
       <language>en</language>
          <item>
+            <title>Version 0.1 (21)</title>
+            <description><![CDATA[
+               <h2>Fixes</h2>
+               <p>Invalid minimized app name</p>
+               <p>Invalid name in menu action "Hide xxxx"</p>
+               <p>Disabled buttons (Folders, SoundCloud or Youtube) still disabled when getting out of mini view</p>
+               <p>Giggling of control buttons</p>
+             ]]>
+            </description>
+            <pubDate>Mon, 26 May 2014 14:40:00 +0000</pubDate>
+            <enclosure url="http://hsarret.github.io/scymodyo/scymodyo0.1.21.zip" sparkle:version="21" sparkle:shortVersionString="0.1" length="2683377" type="application/octet-stream" sparkle:dsaSignature="MCwCFF0MiDPgDnZwB4f24598LN7G6IP/AhRFFHGbvaIJM+YXcpDwskoRuVx6GQ==" />
+         </item>
+         <item>
             <title>Version 0.1 (20)</title>
             <description><![CDATA[
                <h2>Fix</h2>
