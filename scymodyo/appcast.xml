@@ -6,6 +6,16 @@
       <description>Most recent changes with links to updates.</description>
       <language>en</language>
          <item>
+            <title>Version 0.1 (22)</title>
+            <description><![CDATA[
+               <h2>Features</h2>
+               <p>Blurred background playlist</p>
+             ]]>
+            </description>
+            <pubDate>Mon, 04 August 2014 17:18:00 +0000</pubDate>
+            <enclosure url="http://hsarret.github.io/scymodyo/scymodyo0.1.22.zip" sparkle:version="22" sparkle:shortVersionString="0.1" length="2686243" type="application/octet-stream" sparkle:dsaSignature="MCwCFEDuc0eevbOKHqxE9mqYUJMiQij4AhRUYx1s/+Y7MV++K5IhA32w/d+9FQ==" />
+         </item>
+         <item>
             <title>Version 0.1 (21)</title>
             <description><![CDATA[
                <h2>Fixes</h2>
