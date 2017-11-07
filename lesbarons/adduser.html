@@ -12,7 +12,7 @@ $result = mysql_query($query);
 if ($row = mysql_fetch_row($result))
 {
   // failure page
-  include "adduser_fail.php3";
+  include "adduser_fail.html";
   exit();
 }
 
@@ -21,7 +21,7 @@ $query = "INSERT INTO baron_users (username, password ) VALUES ('$myuser', '$myp
 $result = mysql_query($query);
 
 // success page
-include "adduser_success.php3";
+include "adduser_success.html";
 
 // Deconnexion de la base de donnees
 mysql_close();

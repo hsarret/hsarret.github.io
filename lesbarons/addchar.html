@@ -19,7 +19,7 @@ $result = mysql_query($query);
 // session ouverte ?
 if ( !( $aSession = mysql_fetch_object($result) ) )
 {
-  include "addchar_fail_session.php3";
+  include "addchar_fail_session.html";
   exit();
 }
 
@@ -31,7 +31,7 @@ $query = "SELECT * FROM baron_users WHERE iduser = $idUser";
 $result = mysql_query($query);
 if ( !($aUser = mysql_fetch_object($result)) )
 {
-  include "addchar_fail_user.php3";
+  include "addchar_fail_user.html";
   exit();
 }
 
@@ -83,7 +83,7 @@ $result = mysql_query($query);
 if ($row = mysql_fetch_row($result))
 {
   // failure page
-  include "addchar_fail_alreadyexist.php3";
+  include "addchar_fail_alreadyexist.html";
   exit();
 }
 
@@ -104,12 +104,12 @@ $query = $query . "$pcTailoring, $pcTinkering, $currentTime )";
 $result = mysql_query($query);
 if (!$result)
 {
-  include "addchar_fail_fields.php3";
+  include "addchar_fail_fields.html";
   exit();
 }
 
 // Affiche le message de succes
-include "addchar_success.php3";
+include "addchar_success.html";
 
-include "footer.php3";
+include "footer.html";
 ?>

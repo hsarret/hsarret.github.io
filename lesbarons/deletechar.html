@@ -19,7 +19,7 @@ $result = mysql_query($query);
 // session ouverte ?
 if ( !( $aSession = mysql_fetch_object($result) ) )
 {
-  include "deletechar_fail_session.php3";
+  include "deletechar_fail_session.html";
   exit();
 }
 
@@ -31,7 +31,7 @@ $query = "SELECT * FROM baron_users WHERE iduser = $idUser";
 $result = mysql_query($query);
 if ( !($aUser = mysql_fetch_object($result)) )
 {
-  include "deletechar_fail_user.php3";
+  include "deletechar_fail_user.html";
   exit();
 }
 
@@ -83,14 +83,14 @@ $result = mysql_query($query);
 if ( !($aChar = mysql_fetch_object($result)))
 {
   // failure page
-  include "deletechar_fail_notfound.php3";
+  include "deletechar_fail_notfound.html";
   exit();
 }
 
 if ($aChar->memberName != $userName)
 {
   // failure page
-  include "deletechar_fail_notfound.php3";
+  include "deletechar_fail_notfound.html";
   exit();
 }
 
@@ -102,12 +102,12 @@ $query =          "DELETE FROM baron_chars WHERE charName='$oldCharName'";
 $result = mysql_query($query);
 if (!$result)
 {
-  include "deletechar_fail.php3";
+  include "deletechar_fail.html";
   exit();
 }
 
 // Affiche le message de succes
-include "deletechar_success.php3";
+include "deletechar_success.html";
 
-include "footer.php3";
+include "footer.html";
 ?>

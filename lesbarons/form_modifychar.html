@@ -1,6 +1,6 @@
 <?php
 
-  include "banner.php3";
+  include "banner.html";
 
 // Connect to DB
 $db = mysql_connect();
@@ -21,7 +21,7 @@ $result = mysql_query($query);
 // session ouverte ?
 if ( !( $aSession = mysql_fetch_object($result) ) )
 {
-  include "modifychar_fail_session.php3";
+  include "modifychar_fail_session.html";
   exit();
 }
 
@@ -33,7 +33,7 @@ $query = "SELECT * FROM baron_users WHERE iduser = $idUser";
 $result = mysql_query($query);
 if ( !($aUser = mysql_fetch_object($result)) )
 {
-  include "modifychar_fail_user.php3";
+  include "modifychar_fail_user.html";
   exit();
 }
 
@@ -48,14 +48,14 @@ $result = mysql_query($query);
 if ( !($aChar = mysql_fetch_object($result)) )
 {
   // failure page
-  include "modifychar_fail_notfound.php3";
+  include "modifychar_fail_notfound.html";
   exit();
 }
 
 if ( $aChar->memberName != $userName )
 {
   // failure page
-  include "modifychar_fail_notfound.php3";
+  include "modifychar_fail_notfound.html";
   exit();
 }
 
@@ -87,7 +87,7 @@ if ( $aChar->memberName != $userName )
 
 
 <?
-   echo "<FORM Method=\"GET\" Action=\"modifychar.php3\">";
+   echo "<FORM Method=\"GET\" Action=\"modifychar.html\">";
 
    echo "<INPUT type=\"hidden\" size=32 name=oldCharName value=\"$pcCharName\">";
 
@@ -516,5 +516,5 @@ echo '</span>';
 echo '</body>';
 echo '</html>';
 
-include "footer.php3";
+include "footer.html";
 ?>

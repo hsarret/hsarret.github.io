@@ -17,7 +17,7 @@ $result = mysql_query($query);
 $query = "DELETE FROM baron_sessions WHERE sessionid = '$LoginSessionId'";
 $result = mysql_query($query);
 
-include "logout_page.php3";
+include "logout_page.html";
 
 // Deconnexion de la base de donnees
 mysql_close();

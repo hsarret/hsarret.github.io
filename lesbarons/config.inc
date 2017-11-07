@@ -14,7 +14,7 @@
 // Basic Configuration
 
 $header_file = './header.inc';
-$footer_file = './footer.php3';
+$footer_file = './footer.html';
 
 $page_title = "Calendrier des barons";
 

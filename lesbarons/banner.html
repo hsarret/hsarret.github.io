@@ -20,7 +20,7 @@ $result = mysql_query($query);
 // session ouverte ?
 if ( !( $aSession = mysql_fetch_object($result) ) )
 {
-  include "banner_guest.php3";
+  include "banner_guest.html";
   return;
 }
 
@@ -32,13 +32,13 @@ $query = "SELECT * FROM baron_users WHERE iduser = $idUser";
 $result = mysql_query($query);
 if ( !($aUser = mysql_fetch_object($result)) )
 {
-  include "banner_guest.php3";
+  include "banner_guest.html";
   return;
 }
 
 // On affiche l'invite
 $userName = $aUser->username;
-include "banner_user.php3";
+include "banner_user.html";
 
 // Deconnexion de la base de donnees
 mysql_close();
