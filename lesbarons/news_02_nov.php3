@@ -1,0 +1,159 @@
+<?
+  include "banner.php3";
+?>
+
+<html>
+<head>
+<title>News</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="styles.css" type="text/css">
+</head>
+
+<body bgcolor="#091147" text="#000000" topmargin="20">
+<table width="913" border="0" height="34" cellspacing="0">
+  <tr>
+    <td background="title_left.jpg" width="20" border="0">
+      <div align="left"><font size="3"></font></div>
+    </td>
+    <td background="title_middle.jpg" width="860">
+      <div align="left"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">Jeudi 28 Novembre 2002:</span></b></font> </div>
+    </td>
+    <td background="title_right.jpg" width="28">
+      <div align="left"><font size="1"><font size="2"><font size="3"></font></font></font></div>
+    </td>
+  </tr>
+</table>
+<br>
+<table width="913" border="0" height="34" cellspacing="0">
+  <tr>
+    <td width="20" border="0" height="35">
+      <div align="left"><font size="3"></font></div>
+    </td>
+    <td width="860" height="35">
+      <div align="left">
+        <p><font color="#FFFFFF" size="3"><b class="Tahoma14">Update tardive, mais update quand même. Gratz à tout le monde pour lundi soir, Vindi est tombé pour la deuxième fois, avec une participation record de 41 personnes :)</b></font></p>
+      </div>
+    </td>
+    <td width="28" height="35">
+      <div align="left"><font size="1"><font size="2"><font size="3"></font></font></font></div>
+    </td>
+  </tr>
+</table>
+<br>
+<br>
+
+<body bgcolor="#091147" text="#000000" topmargin="20">
+<table width="913" border="0" height="34" cellspacing="0">
+  <tr>
+    <td background="title_left.jpg" width="20" border="0">
+      <div align="left"><font size="3"></font></div>
+    </td>
+    <td background="title_middle.jpg" width="860">
+      <div align="left"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">Mardi 19 Novembre 2002:</span></b></font> </div>
+    </td>
+    <td background="title_right.jpg" width="28">
+      <div align="left"><font size="1"><font size="2"><font size="3"></font></font></font></div>
+    </td>
+  </tr>
+</table>
+<br>
+<table width="913" border="0" height="34" cellspacing="0">
+  <tr>
+    <td width="20" border="0" height="35">
+      <div align="left"><font size="3"></font></div>
+    </td>
+    <td width="860" height="35">
+      <div align="left">
+        <p><font color="#FFFFFF" size="3"><b class="Tahoma14">Update massive du 
+          site, finalement on va continuer &agrave; utiliser l'ancien calendar 
+          (lien updaté dans le menu de gauche), on va juste accorder les couleurs 
+          pour que ça passe bien. On a ajout&eacute; quelques screenshots aussi, 
+          et les targets de la guilde.</b></font></p>
+        <p><font color="#FFFFFF" size="3"><b class="Tahoma14">Gratz tout le monde 
+          pour hier, 2 crowns sur Plane Of Sky, ce soir on remet ça en espérant 
+          le même résultat :)</b></font></p>
+      </div>
+    </td>
+    <td width="28" height="35">
+      <div align="left"><font size="1"><font size="2"><font size="3"></font></font></font></div>
+    </td>
+  </tr>
+</table>
+<br>
+<br>
+
+<body bgcolor="#091147" text="#000000" topmargin="20">
+<table width="913" border="0" height="34" cellspacing="0">
+  <tr>
+    <td background="title_left.jpg" width="20" border="0">
+      <div align="left"><font size="3"></font></div>
+    </td>
+    <td background="title_middle.jpg" width="860">
+      <div align="left"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">Dimanche 17 Novembre 2002:</span></b></font> </div>
+    </td>
+    <td background="title_right.jpg" width="28">
+      <div align="left"><font size="1"><font size="2"><font size="3"></font></font></font></div>
+    </td>
+  </tr>
+</table>
+<br>
+<table width="913" border="0" height="34" cellspacing="0">
+  <tr>
+    <td width="20" border="0" height="35">
+      <div align="left"><font size="3"></font></div>
+    </td>
+    <td width="860" height="35">
+      <div align="left">
+        <p><font color="#FFFFFF" size="3"><b class="Tahoma14">Ajout de la fonction calendrier (première version). Je paufine la mise en page et les restriction d'accès.</b></font></p>
+      </div>
+    </td>
+    <td width="28" height="35">
+      <div align="left"><font size="1"><font size="2"><font size="3"></font></font></font></div>
+    </td>
+  </tr>
+</table>
+<br>
+<br>
+
+<body bgcolor="#091147" text="#000000" topmargin="20">
+<table width="913" border="0" height="34" cellspacing="0">
+  <tr>
+    <td background="title_left.jpg" width="20" border="0">
+      <div align="left"><font size="3"></font></div>
+    </td>
+    <td background="title_middle.jpg" width="860">
+      <div align="left"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">Mercredi 13 Novembre 2002:</span></b></font> </div>
+    </td>
+    <td background="title_right.jpg" width="28">
+      <div align="left"><font size="1"><font size="2"><font size="3"></font></font></font></div>
+    </td>
+  </tr>
+</table>
+<br>
+<table width="913" border="0" height="34" cellspacing="0">
+  <tr>
+    <td width="20" border="0" height="35">
+      <div align="left"><font size="3"></font></div>
+    </td>
+    <td width="860" height="35">
+      <div align="left">
+        <p><font color="#FFFFFF" size="3"><b class="Tahoma14">Modification de la page des membres, seuls les 'mains' sont affichés.<br>Correction d'un bug qui empêchait la création de personnages High Elf.
+        <br><br>Bon séjour à tous !!!!</b></font></p>
+      </div>
+    </td>
+    <td width="28" height="35">
+      <div align="left"><font size="1"><font size="2"><font size="3"></font></font></font></div>
+    </td>
+  </tr>
+</table>
+<br>
+<br>
+
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+</body>
+</html>
+
+<?
+  include "footer.php3";
+?>

@@ -1,0 +1,37 @@
+<?php
+# 
+# PHP Calendar 1.0
+# Developed by Paul Burney, March 2001
+# web: http://paul.burney.ws/
+# email: paul@burney.ws
+# 
+# Main Application File - Do not change unless you know what you're doing
+#
+
+
+// include configuration file
+
+include 'config.inc';
+
+
+// include header file
+
+include $header_file;
+
+// Check the action called
+
+if (!isset($action))
+{
+  include "./banner.php3";
+  $action = 'month_view';
+}
+
+$include_file = $action . '.inc';
+
+include $include_file;
+
+// include footer file
+
+include $footer_file;
+
+?>

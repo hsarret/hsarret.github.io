@@ -1,0 +1,54 @@
+<?php
+
+// Connect to DB
+$db = mysql_connect();
+mysql_select_db("salvadom_db",$db);
+
+// recupere la sessionID
+// transparent dans les cookies, cookie = $LoginSessionId
+echo "Session lu dans les cookies : $LoginSessionId<BR>" ;
+
+// On delete les sessions expirees
+$currentTime = time();
+$query = "DELETE FROM baron_sessions WHERE time < $currentTime";
+$result = mysql_query($query);
+
+// Cherche la session
+$query = "SELECT * FROM baron_sessions WHERE sessionid = '$LoginSessionId'";
+$result = mysql_query($query);
+
+// session ouverte ?
+if ( !( $aSession = mysql_fetch_object($result) ) )
+{
+  echo "Session a expiree, Pour se login, cliquez ici <XXX>";
+  exit();
+}
+
+// recupere l ID du user
+$idUser = $aSession->iduser;
+
+// on le trouve dans la base
+$query = "SELECT * FROM baron_users WHERE iduser = $idUser";
+$result = mysql_query($query);
+if ( !($aUser = mysql_fetch_object($result)) )
+{
+  echo "Pour se login, cliquez ici <XXX>";
+  exit();
+}
+
+// On affiche l'invite
+$userName = $aUser->username;
+
+echo "Bienvenue $userName !!! <Logout>";
+
+// Deconnexion de la base de donnees
+mysql_close();
+
+?>
+
+<html>
+<body>
+<script =
+</body>
+</html>
+

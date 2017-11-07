@@ -1,0 +1,67 @@
+<?php
+
+// Connect to DB
+$db = mysql_connect();
+mysql_select_db("salvadom_db",$db);
+
+// Search for the user
+$query = "SELECT * FROM baron_users WHERE username = '$myuser' AND password = '$mypassword'";
+$result = mysql_query($query);
+
+// User/Password correct ?
+if ( !( $aUser = mysql_fetch_object($result) ) )
+{
+  // failure page
+  include "loginuser_fail.php3";
+  exit();
+}
+
+// recupere l ID du user
+$idUser = $aUser->iduser;
+
+// Creation d'un numero de session
+$sessionId = '';
+
+for ($i = 0; $i<32; $i++ )
+{
+  $temp = sprintf( "%c", 65 + rand (0, 25) );
+  $sessionId = $sessionId . $temp;
+}
+
+// On set le cookie
+$expirationTime = time() + 3600 * 24 * 7;
+setcookie ("LoginSessionId", $sessionId, $expirationTime);  /* expire in 24 hours */
+
+// On delete les sessions expirees
+$currentTime = time();
+$query = "DELETE FROM baron_sessions WHERE time < $currentTime";
+$result = mysql_query($query);
+
+// On delete les precedentes sessions de cet utilisateur
+$query = "DELETE FROM baron_sessions WHERE iduser = $idUser";
+$result = mysql_query($query);
+
+// On cree une session dans la base des sessions
+$query = "INSERT INTO baron_sessions (sessionid, iduser, time ) VALUES ('$sessionId', $idUser, $expirationTime )";
+$result = mysql_query($query);
+
+//echo "<BR>";
+//echo "User $myuser / $mypassword\n";
+//echo "Psaii : ( $Psaii ) <BR>";
+//echo "Current Login session Id : $LoginSessionId <BR>";
+//echo "Current session Id : $sessionId <BR>";
+
+// Deconnexion de la base de donnees
+mysql_close();
+
+// success page
+include "loginuser_success.php3";
+
+?>
+
+<html>
+<body>
+<script =
+</body>
+</html>
+

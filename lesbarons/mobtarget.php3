@@ -1,0 +1,479 @@
+<?
+  include "banner.php3";
+?>
+
+<html>
+<head>
+<title>News</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="styles.css" type="text/css">
+</head>
+<body bgcolor="#091147" text="#000000" topmargin="20">
+
+<table width="913" border="0" height="34" cellspacing="0">
+  <tr>
+    <td background="title_left.jpg" width="20" border="0">
+      <div align="left"><font size="3"></font></div>
+    </td>
+    <td background="title_middle.jpg" width="860">
+      <div align="left"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">Antonica 
+        :</span></b></font> </div>
+    </td>
+    <td background="title_right.jpg" width="28">
+      <div align="left"><font size="1"><font size="2"><font size="3"></font></font></font></div>
+    </td>
+  </tr>
+</table>
+<br>
+<table width="351" border="0" height="34" cellspacing="0">
+  <tr> 
+    <td width="19" border="0" height="20">&nbsp;</td>
+    <td width="283" height="20"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">Phinigel Autropos </span></b></font></td>
+    <td width="43" height="20"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">10+</span></b></font></td>
+  </tr>
+  <tr> 
+    <td width="19" border="0" height="20">&nbsp;</td>
+    <td width="283" height="20"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">General V'Ghera </span></b></font></td>
+    <td width="43" height="20"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">3</span></b></font></td>
+  </tr>
+  <tr> 
+    <td width="19" border="0" height="20">&nbsp;</td>
+    <td width="283" height="20"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">Terror</span></b></font></td>
+    <td width="43" height="20"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">5+</span></b></font></td>
+  </tr>
+  <tr> 
+    <td width="19" border="0" height="20">&nbsp;</td>
+    <td width="283" height="20"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">Dread</span></b></font></td>
+    <td width="43" height="20"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">5+</span></b></font></td>
+  </tr>
+  <tr> 
+    <td width="19" border="0" height="20">&nbsp;</td>
+    <td width="283" height="20"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">Fright</span></b></font></td>
+    <td width="43" height="20"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">5+</span></b></font></td>
+  </tr>
+  <tr> 
+    <td width="19" border="0" height="20">&nbsp;</td>
+    <td width="283" height="20"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">Dracoliche</span></b></font></td>
+    <td width="43" height="20"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">5</span></b></font></td>
+  </tr>
+  <tr> 
+    <td width="19" border="0" height="20">&nbsp;</td>
+    <td width="283" height="20"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">Maestro Of Rancor</span></b></font></td>
+    <td width="43" height="20"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">4</span></b></font></td>
+  </tr>
+  <tr> 
+    <td width="19" border="0" height="20">&nbsp;</td>
+    <td width="283" height="20"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">The Spiroc Lord</span></b></font></td>
+    <td width="43" height="20"><font size="1"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">10+</span></b></font></font></td>
+  </tr>
+  <tr>
+    <td width="19" border="0" height="20">&nbsp;</td>
+    <td width="283" height="20"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">Keeper Of Souls</span></b></font></td>
+    <td width="43" height="20"><font size="1"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">1</span></b></font></font></td>
+  </tr>
+  <tr> 
+    <td width="19" border="0" height="20">&nbsp;</td>
+    <td width="283" height="20"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">Bazzt Zzzt </span></b></font></td>
+    <td width="43" height="20"><font size="1"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">1</span></b></font></font></td>
+  </tr>
+  <tr>
+    <td width="19" border="0" height="20">&nbsp;</td>
+    <td width="283" height="20"><font color="#FFFFFF" size="3"><b><span class="Tahoma14"> Venril Sathir</span></b></font></td>
+    <td width="43" height="20"><font size="1"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">3</span></b></font></font></td>
+  </tr>
+  <tr>
+    <td width="19" border="0" height="20">&nbsp;</td>
+    <td width="283" height="20"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">Echo of Nortlav</span></b></font></td>
+    <td width="43" height="20"><font size="1"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">3</span></b></font></font></td>
+  </tr>
+  <tr>
+    <td width="19" border="0" height="20">&nbsp;</td>
+    <td width="283" height="20"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">Master Yael</span></b></font></td>
+    <td width="43" height="20"><font size="1"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">5+</span></b></font></font></td>
+  </tr>
+  <tr>
+    <td width="19" border="0" height="20">&nbsp;</td>
+    <td width="283" height="20"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">Guardian of the Seal</span></b></font></td>
+    <td width="43" height="20"><font size="1"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">5+</span></b></font></font></td>
+  </tr>
+  <tr>
+    <td width="19" border="0" height="20">&nbsp;</td>
+    <td width="283" height="20"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">An Acidic Mass</span></b></font></td>
+    <td width="43" height="20"><font size="1"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">1</span></b></font></font></td>
+  </tr>
+  <tr>
+    <td width="19" border="0" height="20">&nbsp;</td>
+    <td width="283" height="20"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">Cazic Thule</span></b></font></td>
+    <td width="43" height="20"><font size="1"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">5+</span></b></font></font></td>
+  </tr>
+</table>
+<br>
+<table width="913" border="0" height="34" cellspacing="0">
+  <tr> 
+    <td background="title_left.jpg" width="20" border="0"> 
+      <div align="left"><font size="3"></font></div>
+    </td>
+    <td background="title_middle.jpg" width="860"> 
+      <div align="left"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">Kunark : </span></b></font> </div>
+    </td>
+    <td background="title_right.jpg" width="28"> 
+      <div align="left"><font size="1"><font size="2"><font size="3"></font></font></font></div>
+    </td>
+  </tr>
+</table>
+<br>
+<table width="351" border="0" height="34" cellspacing="0">
+  <tr> 
+    <td width="19" border="0" height="20">&nbsp;</td>
+    <td width="283" height="20"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">Gorenaire</span></b></font></td>
+    <td width="43" height="20"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">1</span></b></font></td>
+  </tr>
+  <tr> 
+    <td width="19" border="0" height="20">&nbsp;</td>
+    <td width="283" height="20"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">Talendor</span></b></font></td>
+    <td width="43" height="20"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">2</span></b></font></td>
+  </tr>
+  <tr> 
+    <td width="19" border="0" height="20">&nbsp;</td>
+    <td width="283" height="20"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">Ragefire</span></b></font></td>
+    <td width="43" height="20"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">5+</span></b></font></td>
+  </tr>
+  <tr> 
+    <td width="19" border="0" height="20">&nbsp;</td>
+    <td width="283" height="20"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">Severilous</span></b></font></td>
+    <td width="43" height="20"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">5+</span></b></font></td>
+  </tr>
+  <tr> 
+    <td width="19" border="0" height="20">&nbsp;</td>
+    <td width="283" height="20"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">Trakanon</span></b></font></td>
+    <td width="43" height="20"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">2</span></b></font></td>
+  </tr>
+  <tr> 
+    <td width="19" border="0" height="20">&nbsp;</td>
+    <td width="283" height="20"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">Ixiblat 
+      Fer </span></b></font></td>
+    <td width="43" height="20"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">5+</span></b></font></td>
+  </tr>
+  <tr> 
+    <td width="19" border="0" height="20">&nbsp;</td>
+    <td width="283" height="20"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">Prince 
+      Selrach Di'zok</span></b></font></td>
+    <td width="43" height="20"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">5+</span></b></font></td>
+  </tr>
+  <tr> 
+    <td width="19" border="0" height="20">&nbsp;</td>
+    <td width="283" height="20"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">Overking 
+      Bathezid </span></b></font></td>
+    <td width="43" height="20"><font size="1"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">5+</span></b></font></font></td>
+  </tr>
+  <tr> 
+    <td width="19" border="0" height="20">&nbsp;</td>
+    <td width="283" height="20"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">Queen Velazul Di'zok</span></b></font></td>
+    <td width="43" height="20"><font size="1"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">3</span></b></font></font></td>
+  </tr>
+  <tr> 
+    <td width="19" border="0" height="20">&nbsp;</td>
+    <td width="283" height="20"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">Lhranc</span></b></font></td>
+    <td width="43" height="20"><font size="1"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">1</span></b></font></font></td>
+  </tr>
+</table>
+<br>
+</p><table width="913" border="0" height="34" cellspacing="0">
+  <tr> 
+    <td background="title_left.jpg" width="20" border="0"> 
+      <div align="left"><font size="3"></font></div>
+    </td>
+    <td background="title_middle.jpg" width="860"> 
+      <div align="left"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">Velious : </span></b></font> </div>
+    </td>
+    <td background="title_right.jpg" width="28"> 
+      <div align="left"><font size="1"><font size="2"><font size="3"></font></font></font></div>
+    </td>
+  </tr>
+</table>
+<br>
+<table width="351" border="0" height="19" cellspacing="0">
+  <tr>
+    <td width="19" border="0" height="20">&nbsp;</td>
+    <td width="283" height="20"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">Lord Doljonijiarnimorinar</span></b></font></td>
+    <td width="43" height="20"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">2</span></b></font></td>
+  </tr>
+  <tr>
+    <td width="19" border="0" height="20">&nbsp;</td>
+    <td width="283" height="20"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">Velkethor the Sorcerer</span></b></font></td>
+    <td width="43" height="20"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">5+</span></b></font></td>
+  </tr>
+  <tr>
+    <td width="19" border="0" height="20">&nbsp;</td>
+    <td width="283" height="20"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">Kelorek'Dar</span></b></font></td>
+    <td width="43" height="20"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">5+</span></b></font></td>
+  </tr>
+  <tr> 
+    <td width="19" border="0" height="20">&nbsp;</td>
+    <td width="283" height="20"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">Derakor the Vindicator</span></b></font></td>
+    <td width="43" height="20"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">10+</span></b></font></td>
+  </tr>
+  <tr>
+    <td width="19" border="0" height="20">&nbsp;</td>
+    <td width="283" height="20"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">Klandicar</span></b></font></td>
+    <td width="43" height="20"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">10+</span></b></font></td>
+  </tr>
+  <tr>
+    <td width="19" border="0" height="20">&nbsp;</td>
+    <td width="283" height="20"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">Zlandicar</span></b></font></td>
+    <td width="43" height="20"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">6</span></b></font></td>
+  </tr>
+  <tr>
+    <td width="19" border="0" height="20">&nbsp;</td>
+    <td width="283" height="20"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">Ikatiar the Venom</span></b></font></td>
+    <td width="43" height="20"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">3</span></b></font></td>
+  </tr>
+  <tr>
+    <td width="19" border="0" height="20">&nbsp;</td>
+    <td width="283" height="20"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">Eashen of the Sky</span></b></font></td>
+    <td width="43" height="20"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">2</span></b></font></td>
+  </tr>
+  <tr>
+    <td width="19" border="0" height="20">&nbsp;</td>
+    <td width="283" height="20"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">Wuoshi</span></b></font></td>
+    <td width="43" height="20"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">1</span></b></font></td>
+  </tr>
+  <tr>
+    <td width="19" border="0" height="20">&nbsp;</td>
+    <td width="283" height="20"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">Gozzrem</span></b></font></td>
+    <td width="43" height="20"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">4</span></b></font></td>
+  </tr>
+  <tr>
+    <td width="19" border="0" height="20">&nbsp;</td>
+    <td width="283" height="20"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">Telkorenar</span></b></font></td>
+    <td width="43" height="20"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">4</span></b></font></td>
+  </tr>
+  <tr>
+    <td width="19" border="0" height="20">&nbsp;</td>
+    <td width="283" height="20"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">Furious Phantasm</span></b></font></td>
+    <td width="43" height="20"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">1</span></b></font></td>
+  </tr>
+  <tr>
+    <td width="19" border="0" height="20">&nbsp;</td>
+    <td width="283" height="20"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">Master of the Guard</span></b></font></td>
+    <td width="43" height="20"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">2</span></b></font></td>
+  </tr>
+  <tr>
+    <td width="19" border="0" height="20">&nbsp;</td>
+    <td width="283" height="20"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">The Progenitor</span></b></font></td>
+    <td width="43" height="20"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">2</span></b></font></td>
+  </tr>
+  <tr>
+    <td width="19" border="0" height="20">&nbsp;</td>
+    <td width="283" height="20"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">Lendiniara the Keeper</span></b></font></td>
+    <td width="43" height="20"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">1</span></b></font></td>
+  </tr>
+  <tr>
+    <td width="19" border="0" height="20">&nbsp;</td>
+    <td width="283" height="20"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">Aaryonar</span></b></font></td>
+    <td width="43" height="20"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">1</span></b></font></td>
+  </tr>
+  <tr>
+    <td width="19" border="0" height="20">&nbsp;</td>
+    <td width="283" height="20"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">The Statue of Rallos Zek</span></b></font></td>
+    <td width="43" height="20"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">1</span></b></font></td>
+  </tr>
+  <tr>
+    <td width="19" border="0" height="20">&nbsp;</td>
+    <td width="283" height="20"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">The Idol of Rallos Zek</span></b></font></td>
+    <td width="43" height="20"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">2</span></b></font></td>
+  </tr>
+  <tr>
+    <td width="19" border="0" height="20">&nbsp;</td>
+    <td width="283" height="20"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">King Tormax</span></b></font></td>
+    <td width="43" height="20"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">1</span></b></font></td>
+  </tr>
+  <tr>
+    <td width="19" border="0" height="20">&nbsp;</td>
+    <td width="283" height="20"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">Yelinak</span></b></font></td>
+    <td width="43" height="20"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">1</span></b></font></td>
+  </tr>
+
+</table>
+<br>
+</p><table width="913" border="0" height="34" cellspacing="0">
+  <tr> 
+    <td background="title_left.jpg" width="20" border="0"> 
+      <div align="left"><font size="3"></font></div>
+    </td>
+    <td background="title_middle.jpg" width="860"> 
+      <div align="left"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">Luclin : </span></b></font> </div>
+    </td>
+    <td background="title_right.jpg" width="28"> 
+      <div align="left"><font size="1"><font size="2"><font size="3"></font></font></font></div>
+    </td>
+  </tr>
+</table>
+<br>
+<table width="351" border="0" height="34" cellspacing="0">
+  <tr> 
+    <td width="19" border="0" height="20">&nbsp;</td>
+    <td width="283" height="20"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">Spirit of Radir</span></b></font></td>
+    <td width="43" height="20"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">8</span></b></font></td>
+  </tr>
+  <tr> 
+    <td width="19" border="0" height="20">&nbsp;</td>
+    <td width="283" height="20"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">Spirit of Tawro</span></b></font></td>
+    <td width="43" height="20"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">2</span></b></font></td>
+  </tr>
+  <tr> 
+    <td width="19" border="0" height="20">&nbsp;</td>
+    <td width="283" height="20"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">Praetorian 
+      Myral </span></b></font></td>
+    <td width="43" height="20"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">5</span></b></font></td>
+  </tr>
+  <tr> 
+    <td width="19" border="0" height="20">&nbsp;</td>
+    <td width="283" height="20"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">Servitor 
+      of Luclin</span></b></font></td>
+    <td width="43" height="20"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">2</span></b></font></td>
+  </tr>
+  <tr> 
+    <td width="19" border="0" height="20">&nbsp;</td>
+    <td width="283" height="20"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">Zelnithak</span></b></font></td>
+    <td width="43" height="20"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">5+</span></b></font></td>
+  </tr>
+  <tr> 
+    <td width="19" border="0" height="20">&nbsp;</td>
+    <td width="283" height="20"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">Doomshade</span></b></font></td>
+    <td width="43" height="20"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">5+</span></b></font></td>
+  </tr>
+  <tr> 
+    <td width="19" border="0" height="20">&nbsp;</td>
+    <td width="283" height="20"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">Rumblecrush</span></b></font></td>
+    <td width="43" height="20"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">10+</span></b></font></td>
+  </tr>
+  <tr> 
+    <td width="19" border="0" height="20">&nbsp;</td>
+    <td width="283" height="20"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">The Va'Dyn</span></b></font></td>
+    <td width="43" height="20"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">5+</span></b></font></td>
+  </tr>
+  <tr> 
+    <td width="19" border="0" height="20">&nbsp;</td>
+    <td width="283" height="20"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">Rhag Zhezum</span></b></font></td>
+    <td width="43" height="20"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">6</span></b></font></td>
+  </tr>
+  <tr> 
+    <td width="19" border="0" height="20">&nbsp;</td>
+    <td width="283" height="20"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">Rhag Mozdezh</span></b></font></td>
+    <td width="43" height="20"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">5</span></b></font></td>
+  </tr>
+  <tr> 
+    <td width="19" border="0" height="20">&nbsp;</td>
+    <td width="283" height="20"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">An Evolved Burrower</span></b></font></td>
+    <td width="43" height="20"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">5+</span></b></font></td>
+  </tr>
+  <tr> 
+    <td width="19" border="0" height="20">&nbsp;</td>
+    <td width="283" height="20"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">Grieg Veneficus</span></b></font></td>
+    <td width="43" height="20"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">1</span></b></font></td>
+  </tr>
+</table>
+<br>
+</p><table width="913" border="0" height="34" cellspacing="0">
+  <tr> 
+    <td background="title_left.jpg" width="20" border="0"> 
+      <div align="left"><font size="3"></font></div>
+    </td>
+    <td background="title_middle.jpg" width="860"> 
+      <div align="left"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">Planes of Power 
+        : </span></b></font> </div>
+    </td>
+    <td background="title_right.jpg" width="28"> 
+      <div align="left"><font size="1"><font size="2"><font size="3"></font></font></font></div>
+    </td>
+  </tr>
+</table>
+<br>
+<table width="351" border="0" height="34" cellspacing="0">
+  <tr> 
+    <td width="19" border="0" height="20">&nbsp;</td>
+    <td width="283" height="20"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">Pendubk the Turbulent</span></b></font></td>
+    <td width="43" height="20"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">3</span></b></font></td>
+  </tr>
+  <tr> 
+    <td width="19" border="0" height="20">&nbsp;</td>
+    <td width="283" height="20"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">Solnebk the Unruly</span></b></font></td>
+    <td width="43" height="20"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">3</span></b></font></td>
+  </tr>
+  <tr> 
+    <td width="19" border="0" height="20">&nbsp;</td>
+    <td width="283" height="20"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">Paruek the Strong</span></b></font></td>
+    <td width="43" height="20"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">2</span></b></font></td>
+  </tr>
+  <tr> 
+    <td width="19" border="0" height="20">&nbsp;</td>
+    <td width="283" height="20"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">Faruek the Bold</span></b></font></td>
+    <td width="43" height="20"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">2</span></b></font></td>
+  </tr>
+  <tr> 
+    <td width="19" border="0" height="20">&nbsp;</td>
+    <td width="283" height="20"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">Laruken the Rigid</span></b></font></td>
+    <td width="43" height="20"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">2</span></b></font></td>
+  </tr>
+  <tr> 
+    <td width="19" border="0" height="20">&nbsp;</td>
+    <td width="283" height="20"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">Zertuken the Unyielding</span></b></font></td>
+    <td width="43" height="20"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">2</span></b></font></td>
+  </tr>
+  <tr> 
+    <td width="19" border="0" height="20">&nbsp;</td>
+    <td width="283" height="20"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">Vhaksiz the Shade</span></b></font></td>
+    <td width="43" height="20"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">1</span></b></font></td>
+  </tr>
+  <tr> 
+    <td width="19" border="0" height="20">&nbsp;</td>
+    <td width="283" height="20"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">Xanamech Nexmirthafen</span></b></font></td>
+    <td width="43" height="20"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">2</span></b></font></td>
+  </tr>
+  <tr> 
+    <td width="19" border="0" height="20">&nbsp;</td>
+    <td width="283" height="20"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">A Construct of Nightmares</span></b></font></td>
+    <td width="43" height="20"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">1</span></b></font></td>
+  </tr>
+  <tr> 
+    <td width="19" border="0" height="20">&nbsp;</td>
+    <td width="283" height="20"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">Junk Beast</span></b></font></td>
+    <td width="43" height="20"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">1</span></b></font></td>
+  </tr>
+</table>
+
+</p><table width="913" border="0" height="34" cellspacing="0">
+  <tr> 
+    <td background="title_left.jpg" width="20" border="0"> 
+      <div align="left"><font size="3"></font></div>
+    </td>
+    <td background="title_middle.jpg" width="860"> 
+      <div align="left"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">Legacy of Ykesha 
+        : </span></b></font> </div>
+    </td>
+    <td background="title_right.jpg" width="28"> 
+      <div align="left"><font size="1"><font size="2"><font size="3"></font></font></font></div>
+    </td>
+  </tr>
+</table>
+<br>
+<table width="351" border="0" height="34" cellspacing="0">
+  <tr> 
+    <td width="19" border="0" height="20">&nbsp;</td>
+    <td width="283" height="20"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">Overseer Wrank</span></b></font></td>
+    <td width="43" height="20"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">1</span></b></font></td>
+  </tr>
+  <tr> 
+    <td width="19" border="0" height="20">&nbsp;</td>
+    <td width="283" height="20"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">Overlord Ngrub</span></b></font></td>
+    <td width="43" height="20"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">1</span></b></font></td>
+  </tr>
+</table>
+
+</body>
+</html>
+
+<?
+  include "footer.php3";
+?>

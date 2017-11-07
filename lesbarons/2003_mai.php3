@@ -1,3 +1,7 @@
+<?
+  include "banner.php3";
+?>
+
 <html>
 <head>
 <title>News</title>
@@ -768,3 +772,7 @@
 
 </body>
 </html>
+
+<?
+  include "footer.php3";
+?>

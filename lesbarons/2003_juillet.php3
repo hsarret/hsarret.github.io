@@ -1,0 +1,370 @@
+<?
+  include "banner.php3";
+?>
+
+<html>
+<head>
+<title>News</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="styles.css" type="text/css">
+</head>
+
+
+<body bgcolor="#091147" text="#000000" topmargin="20">
+<table width="913" border="0" height="34" cellspacing="0">
+  <tr>
+    <td background="title_left.jpg" width="20" border="0">
+      <div align="left"><font size="3"></font></div>
+    </td>
+    <td background="title_middle.jpg" width="860">
+      <div align="left"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">Mercredi 23 Juillet 2003:</span></b></font> </div>
+    </td>
+    <td background="title_right.jpg" width="28">
+      <div align="left"><font size="1"><font size="2"><font size="3"></font></font></font></div>
+    </td>
+  </tr>
+</table>
+<br>
+<table width="913" border="0" height="34" cellspacing="0">
+  <tr>
+    <td width="20" border="0" height="35">
+      <div align="left"><font size="3"></font></div>
+    </td>
+    <td width="860" height="35">
+      <div align="left">
+        <p>
+			<font color="#FFFFFF" size="3">
+				<b class="Tahoma14">
+					<a href="http://eqbeastiary.allakhazam.com/search.shtml?id=10215" target="_new">Rallius Rattican</a><br><br>
+					-> <a href="http://everquest.allakhazam.com/db/item.html?item=16658" target="_new">Rattican's Head</a> gratz Waza<br>
+					-> <a href="http://everquest.allakhazam.com/db/item.html?item=16461" target="_new">Gloves of Flowing Ooze</a> gratz Jahan<br><br>
+				</b>
+			</font>
+		</p>
+      </div>
+    </td>
+    <td width="28" height="35">
+      <div align="left"><font size="1"><font size="2"><font size="3"></font></font></font></div>
+    </td>
+  </tr>
+</table>
+<br>
+<br>
+
+<body bgcolor="#091147" text="#000000" topmargin="20">
+<table width="913" border="0" height="34" cellspacing="0">
+  <tr>
+    <td background="title_left.jpg" width="20" border="0">
+      <div align="left"><font size="3"></font></div>
+    </td>
+    <td background="title_middle.jpg" width="860">
+      <div align="left"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">Lundi 21 Juillet 2003:</span></b></font> </div>
+    </td>
+    <td background="title_right.jpg" width="28">
+      <div align="left"><font size="1"><font size="2"><font size="3"></font></font></font></div>
+    </td>
+  </tr>
+</table>
+<br>
+<table width="913" border="0" height="34" cellspacing="0">
+  <tr>
+    <td width="20" border="0" height="35">
+      <div align="left"><font size="3"></font></div>
+    </td>
+    <td width="860" height="35">
+      <div align="left">
+        <p>
+			<font color="#FFFFFF" size="3">
+				<b class="Tahoma14">
+					<a href="http://eqbeastiary.allakhazam.com/search.shtml?id=7786" target="_new">Zelnithak</a><br><br>
+					-> <a href="http://everquest.allakhazam.com/db/item.html?item=10148" target="_new">Tome of Self Reflection</a> gratz Dagmentar<br>
+					-> <a href="http://everquest.allakhazam.com/db/item.html?item=10183" target="_new">Ancient Medallion of Faith</a> gratz Hahol<br>
+					-> <a href="http://everquest.allakhazam.com/db/item.html?item=8966" target="_new">Bracelet of Comprehension</a> gratz Jahan<br><br>
+					<a href="http://eqbeastiary.allakhazam.com/search.shtml?id=7788" target="_new">Gantru Dralkenr</a><br><br>
+					-> <a href="http://everquest.allakhazam.com/db/item.html?item=8960" target="_new">Bracelet of Quickness</a> gratz Soloa<br><br>
+					<a href="http://eqbeastiary.allakhazam.com/search.shtml?id=7909" target="_new">Spirit of Radir</a><br><br>
+					-> <a href="http://everquest.allakhazam.com/db/item.html?item=8959" target="_new">Pebble Crusher</a> gratz Sisyphe<br>
+					-> <a href="http://everquest.allakhazam.com/db/item.html?item=8994" target="_new">Darkblood Sword</a> gratz Doldak<br><br>
+					<a href="http://eqbeastiary.allakhazam.com/search.shtml?id=11044" target="_new">Elif Whitewind</a><br><br>
+					-> <a href="http://everquest.allakhazam.com/db/item.html?item=17849" target="_new">Vambraces of Vengeful Fury</a> gratz Dagmentar<br><br>
+				</b>
+			</font>
+		</p>
+      </div>
+    </td>
+    <td width="28" height="35">
+      <div align="left"><font size="1"><font size="2"><font size="3"></font></font></font></div>
+    </td>
+  </tr>
+</table>
+<br>
+<br>
+
+<body bgcolor="#091147" text="#000000" topmargin="20">
+<table width="913" border="0" height="34" cellspacing="0">
+  <tr>
+    <td background="title_left.jpg" width="20" border="0">
+      <div align="left"><font size="3"></font></div>
+    </td>
+    <td background="title_middle.jpg" width="860">
+      <div align="left"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">Dimanche 20 Juillet 2003:</span></b></font> </div>
+    </td>
+    <td background="title_right.jpg" width="28">
+      <div align="left"><font size="1"><font size="2"><font size="3"></font></font></font></div>
+    </td>
+  </tr>
+</table>
+<br>
+<table width="913" border="0" height="34" cellspacing="0">
+  <tr>
+    <td width="20" border="0" height="35">
+      <div align="left"><font size="3"></font></div>
+    </td>
+    <td width="860" height="35">
+      <div align="left">
+        <p>
+			<font color="#FFFFFF" size="3">
+				<b class="Tahoma14">
+					<a href="http://eqbeastiary.allakhazam.com/search.shtml?id=11126" target="_new">Overseer Wrank</a><br><br>
+					-> <a href="http://everquest.allakhazam.com/db/item.html?item=20132" target="_new">Grobb Hide Sleeves</a> gratz Nygoth<br>
+					-> <a href="http://everquest.allakhazam.com/db/item.html?item=19953" target="_new">Overseer's Whip</a> gratz Rosalie<br><br>
+					<a href="http://eqbeastiary.allakhazam.com/search.shtml?id=11125" target="_new">Overlord Ngrub Brokenskull</a><br><br>
+					-> <a href="http://everquest.allakhazam.com/db/item.html?item=19247" target="_new">Etched Zraxthril Bracer</a> gratz Ghydil<br>
+					-> <a href="http://everquest.allakhazam.com/db/item.html?item=19672" target="_new">Weighted Mantle</a> gratz Keuer<br><br>
+
+					-> <a href="http://everquest.allakhazam.com/db/item.html?item=11999" target="_new">Blessed Coldain Prayer Shawl</a> gratz Nygoth<br><br>
+				</b>
+			</font>
+		</p>
+      </div>
+    </td>
+    <td width="28" height="35">
+      <div align="left"><font size="1"><font size="2"><font size="3"></font></font></font></div>
+    </td>
+  </tr>
+</table>
+<br>
+<br>
+
+<body bgcolor="#091147" text="#000000" topmargin="20">
+<table width="913" border="0" height="34" cellspacing="0">
+  <tr>
+    <td background="title_left.jpg" width="20" border="0">
+      <div align="left"><font size="3"></font></div>
+    </td>
+    <td background="title_middle.jpg" width="860">
+      <div align="left"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">Samedi 12 Juillet 2003:</span></b></font> </div>
+    </td>
+    <td background="title_right.jpg" width="28">
+      <div align="left"><font size="1"><font size="2"><font size="3"></font></font></font></div>
+    </td>
+  </tr>
+</table>
+<br>
+<table width="913" border="0" height="34" cellspacing="0">
+  <tr>
+    <td width="20" border="0" height="35">
+      <div align="left"><font size="3"></font></div>
+    </td>
+    <td width="860" height="35">
+      <div align="left">
+        <p>
+			<font color="#FFFFFF" size="3">
+				<b class="Tahoma14">
+					<a href="http://eqbeastiary.allakhazam.com/search.shtml?id=10215" target="_new">Rallius Rattican</a><br><br>
+					-> <a href="http://everquest.allakhazam.com/db/item.html?item=16658" target="_new">Rattican's Head</a> gratz Qintana<br>
+					-> <a href="http://everquest.allakhazam.com/db/item.html?item=16410" target="_new">Arachnid Antennae</a> gratz Kylaz<br><br>
+				</b>
+			</font>
+		</p>
+      </div>
+    </td>
+    <td width="28" height="35">
+      <div align="left"><font size="1"><font size="2"><font size="3"></font></font></font></div>
+    </td>
+  </tr>
+</table>
+<br>
+<br>
+
+<body bgcolor="#091147" text="#000000" topmargin="20">
+<table width="913" border="0" height="34" cellspacing="0">
+  <tr>
+    <td background="title_left.jpg" width="20" border="0">
+      <div align="left"><font size="3"></font></div>
+    </td>
+    <td background="title_middle.jpg" width="860">
+      <div align="left"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">Vendredi 11 Juillet 2003:</span></b></font> </div>
+    </td>
+    <td background="title_right.jpg" width="28">
+      <div align="left"><font size="1"><font size="2"><font size="3"></font></font></font></div>
+    </td>
+  </tr>
+</table>
+<br>
+<table width="913" border="0" height="34" cellspacing="0">
+  <tr>
+    <td width="20" border="0" height="35">
+      <div align="left"><font size="3"></font></div>
+    </td>
+    <td width="860" height="35">
+      <div align="left">
+        <p>
+			<font color="#FFFFFF" size="3">
+				<b class="Tahoma14">
+					<a href="http://eqbeastiary.allakhazam.com/search.shtml?id=7398" target="_new">Rumblecrush</a><br><br>
+					-> <a href="http://everquest.allakhazam.com/db/item.html?item=10153" target="_new">Wicked Mail</a> gratz Symbad<br>
+					-> <a href="http://everquest.allakhazam.com/db/item.html?item=10154" target="_new">Belt of Scintillation</a> gratz Cailloux<br><br>
+
+					-> <a href="http://everquest.allakhazam.com/db/item.html?item=7535" target="_new">Dark Assassin Greaves</a> gratz Symbad<br><br>
+				</b>
+			</font>
+		</p>
+      </div>
+    </td>
+    <td width="28" height="35">
+      <div align="left"><font size="1"><font size="2"><font size="3"></font></font></font></div>
+    </td>
+  </tr>
+</table>
+<br>
+<br>
+
+<body bgcolor="#091147" text="#000000" topmargin="20">
+<table width="913" border="0" height="34" cellspacing="0">
+  <tr>
+    <td background="title_left.jpg" width="20" border="0">
+      <div align="left"><font size="3"></font></div>
+    </td>
+    <td background="title_middle.jpg" width="860">
+      <div align="left"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">Mercredi 9 Juillet 2003:</span></b></font> </div>
+    </td>
+    <td background="title_right.jpg" width="28">
+      <div align="left"><font size="1"><font size="2"><font size="3"></font></font></font></div>
+    </td>
+  </tr>
+</table>
+<br>
+<table width="913" border="0" height="34" cellspacing="0">
+  <tr>
+    <td width="20" border="0" height="35">
+      <div align="left"><font size="3"></font></div>
+    </td>
+    <td width="860" height="35">
+      <div align="left">
+        <p>
+			<font color="#FFFFFF" size="3">
+				<b class="Tahoma14">
+					<a href="http://eqbeastiary.allakhazam.com/search.shtml?id=5510" target="_new">Velketor the Sorcerer</a><br><br>
+					-> <a href="http://everquest.allakhazam.com/db/item.html?item=4532" target="_new">Bone Bracelet of Condemnation</a> gratz Psaii<br>
+					-> <a href="http://everquest.allakhazam.com/db/item.html?item=6391" target="_new">Gloves of Bladecalling</a> decayed<br><br>
+				</b>
+			</font>
+		</p>
+      </div>
+    </td>
+    <td width="28" height="35">
+      <div align="left"><font size="1"><font size="2"><font size="3"></font></font></font></div>
+    </td>
+  </tr>
+</table>
+<br>
+<br>
+
+<body bgcolor="#091147" text="#000000" topmargin="20">
+<table width="913" border="0" height="34" cellspacing="0">
+  <tr>
+    <td background="title_left.jpg" width="20" border="0">
+      <div align="left"><font size="3"></font></div>
+    </td>
+    <td background="title_middle.jpg" width="860">
+      <div align="left"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">Mercredi 9 Juillet 2003:</span></b></font> </div>
+    </td>
+    <td background="title_right.jpg" width="28">
+      <div align="left"><font size="1"><font size="2"><font size="3"></font></font></font></div>
+    </td>
+  </tr>
+</table>
+<br>
+<table width="913" border="0" height="34" cellspacing="0">
+  <tr>
+    <td width="20" border="0" height="35">
+      <div align="left"><font size="3"></font></div>
+    </td>
+    <td width="860" height="35">
+      <div align="left">
+        <p>
+			<font color="#FFFFFF" size="3">
+				<b class="Tahoma14">
+					<a href="http://eqbeastiary.allakhazam.com/search.shtml?id=7398" target="_new">Rumblecrush</a><br><br>
+					-> <a href="http://everquest.allakhazam.com/db/item.html?item=10186" target="_new">Soft Satin Gloves</a> gratz Dobliniel<br>
+					-> <a href="http://everquest.allakhazam.com/db/item.html?item=8925" target="_new">Calamity's End</a> gratz Berthe<br>
+					-> <a href="http://everquest.allakhazam.com/db/item.html?item=10147" target="_new">Shawl of Ice</a> gratz Ruffy<br><br>
+				</b>
+			</font>
+		</p>
+      </div>
+    </td>
+    <td width="28" height="35">
+      <div align="left"><font size="1"><font size="2"><font size="3"></font></font></font></div>
+    </td>
+  </tr>
+</table>
+<br>
+<br>
+
+<body bgcolor="#091147" text="#000000" topmargin="20">
+<table width="913" border="0" height="34" cellspacing="0">
+  <tr>
+    <td background="title_left.jpg" width="20" border="0">
+      <div align="left"><font size="3"></font></div>
+    </td>
+    <td background="title_middle.jpg" width="860">
+      <div align="left"><font color="#FFFFFF" size="3"><b><span class="Tahoma14">Mardi 8 Juillet 2003:</span></b></font> </div>
+    </td>
+    <td background="title_right.jpg" width="28">
+      <div align="left"><font size="1"><font size="2"><font size="3"></font></font></font></div>
+    </td>
+  </tr>
+</table>
+<br>
+<table width="913" border="0" height="34" cellspacing="0">
+  <tr>
+    <td width="20" border="0" height="35">
+      <div align="left"><font size="3"></font></div>
+    </td>
+    <td width="860" height="35">
+      <div align="left">
+        <p>
+			<font color="#FFFFFF" size="3">
+				<b class="Tahoma14">
+					<a href="http://eqbeastiary.allakhazam.com/search.shtml?id=5213" target="_new">Ixiblat Fer</a><br><br>
+					-> <a href="http://everquest.allakhazam.com/db/item.html?item=146 target="_new">Sceptre of Ixiblat Fer</a> gratz Rainbowshade<br><br>
+				</b>
+			</font>
+		</p>
+      </div>
+    </td>
+    <td width="28" height="35">
+      <div align="left"><font size="1"><font size="2"><font size="3"></font></font></font></div>
+    </td>
+  </tr>
+</table>
+<br>
+<br>
+
+
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+</body>
+</html>
+
+<?
+  include "footer.php3";
+?>
+
+<script=")é_à')é"_çé"'(
+
+<?
+  exit();
+?>
