@@ -5,3 +5,12 @@
 .Tahoma14 {  font-family: Tahoma; font-size: 14px; text-decoration: none}
 .Tahoma14B {  font-family: Tahoma; font-size: 14px; font-weight: bold; text-decoration: none}
 .Tahoma16B {  font-family: Tahoma; font-size: 16px; font-weight: bold}
+
+table {
+    width: 913;
+    border: 0;
+    height: 34;
+    border-spacing: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
