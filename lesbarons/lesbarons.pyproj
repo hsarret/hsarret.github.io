@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{aa21123e-3181-4ebd-b179-f28098a959e8}</ProjectGuid>
+    <ProjectHome />
+    <StartupFile>News.py</StartupFile>
+    <SearchPath />
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <InterpreterId />
+    <InterpreterVersion />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
+    <PtvsTargetsFile>$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets</PtvsTargetsFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="2002_decembre.html" />
+    <Content Include="2003_aout.html" />
+    <Content Include="2003_avril.html" />
+    <Content Include="2003_fevrier.html" />
+    <Content Include="2003_janvier.html" />
+    <Content Include="2003_juillet.html" />
+    <Content Include="2003_juin.html" />
+    <Content Include="2003_mai.html" />
+    <Content Include="2003_mars.html" />
+    <Content Include="addchar.html" />
+    <Content Include="addchar_fail_alreadyexist.html" />
+    <Content Include="addchar_fail_fields.html" />
+    <Content Include="addchar_fail_session.html" />
+    <Content Include="addchar_fail_user.html" />
+    <Content Include="addchar_success.html" />
+    <Content Include="adduser.html" />
+    <Content Include="adduser_fail.html" />
+    <Content Include="adduser_success.html" />
+    <Content Include="banner.html" />
+    <Content Include="banner_guest.html" />
+    <Content Include="banner_user.html" />
+    <Content Include="calendar.html" />
+    <Content Include="counter.txt" />
+    <Content Include="deletechar.html" />
+    <Content Include="deletechar_fail_notfound.html" />
+    <Content Include="deletechar_fail_session.html" />
+    <Content Include="deletechar_fail_user.html" />
+    <Content Include="deletechar_success.html" />
+    <Content Include="focus items.html" />
+    <Content Include="footer.html" />
+    <Content Include="form_addchar.html" />
+    <Content Include="form_adduser.html" />
+    <Content Include="form_deletechar.html" />
+    <Content Include="form_identification.html" />
+    <Content Include="form_modifychar.html" />
+    <Content Include="guildbank.html" />
+    <Content Include="guildinfos.html" />
+    <Content Include="index.html" />
+    <Content Include="knot.gif" />
+    <Content Include="links.html" />
+    <Content Include="loginuser.html" />
+    <Content Include="loginuser_fail.html" />
+    <Content Include="loginuser_success.html" />
+    <Content Include="logoutuser.html" />
+    <Content Include="logout_page.html" />
+    <Content Include="main_test.html" />
+    <Content Include="manageuser.html" />
+    <Content Include="members_overall.html" />
+    <Content Include="menu.html" />
+    <Content Include="menu_1.jpg" />
+    <Content Include="menu_2.jpg" />
+    <Content Include="mobtarget.html" />
+    <Content Include="modifychar.html" />
+    <Content Include="modifychar_fail_fields.html" />
+    <Content Include="modifychar_fail_notfound.html" />
+    <Content Include="modifychar_fail_session.html" />
+    <Content Include="modifychar_fail_user.html" />
+    <Content Include="modifychar_success.html" />
+    <Content Include="news.html" />
+    <Content Include="news_02_nov.html" />
+    <Content Include="PoPmap.html" />
+    <Content Include="screenshots.html" />
+    <Content Include="Screenshots\82BR.JPG" />
+    <Content Include="Screenshots\82BR.png" />
+    <Content Include="Screenshots\AkenEpic.JPG" />
+    <Content Include="Screenshots\AkenEpic.png" />
+    <Content Include="Screenshots\ambiance_chaleureuse_chez_cazic.jpg" />
+    <Content Include="Screenshots\AoW.JPG" />
+    <Content Include="Screenshots\AoW.png" />
+    <Content Include="Screenshots\AoW2.JPG" />
+    <Content Include="Screenshots\AoW2.png" />
+    <Content Include="Screenshots\AullifeChaoswind.JPG" />
+    <Content Include="Screenshots\AullifeChaoswind.png" />
+    <Content Include="Screenshots\Bears.jpg" />
+    <Content Include="Screenshots\BiroDT.JPG" />
+    <Content Include="Screenshots\BiroDT.png" />
+    <Content Include="Screenshots\Burrower.JPG" />
+    <Content Include="Screenshots\Burrower.png" />
+    <Content Include="Screenshots\Burrower2.JPG" />
+    <Content Include="Screenshots\Burrower2.png" />
+    <Content Include="Screenshots\Burrower3.JPG" />
+    <Content Include="Screenshots\Burrower3.png" />
+    <Content Include="Screenshots\CaCDuGraf.JPG" />
+    <Content Include="Screenshots\CaCDuGraf.png" />
+    <Content Include="Screenshots\CazicThule2.JPG" />
+    <Content Include="Screenshots\CazicThule2.png" />
+    <Content Include="Screenshots\ConstructOfNightmares.JPG" />
+    <Content Include="Screenshots\ConstructOfNightmares.png" />
+    <Content Include="Screenshots\CTParty.JPG" />
+    <Content Include="Screenshots\CTParty.png" />
+    <Content Include="Screenshots\CTPet.JPG" />
+    <Content Include="Screenshots\CTPet.png" />
+    <Content Include="Screenshots\CTSieste.JPG" />
+    <Content Include="Screenshots\CTSieste.png" />
+    <Content Include="Screenshots\Doomshade.jpg" />
+    <Content Include="Screenshots\ElsaneDT.JPG" />
+    <Content Include="Screenshots\ElsaneDT.png" />
+    <Content Include="Screenshots\EpicDagmentar.JPG" />
+    <Content Include="Screenshots\EpicDagmentar.png" />
+    <Content Include="Screenshots\EpicImothep.jpg" />
+    <Content Include="Screenshots\EpicMeriandis.JPG" />
+    <Content Include="Screenshots\EpicMeriandis.png" />
+    <Content Include="Screenshots\EpicSianur.jpg" />
+    <Content Include="Screenshots\EpicSianur2.jpg" />
+    <Content Include="Screenshots\EpicWarTapEtGraf.jpg" />
+    <Content Include="Screenshots\FaruekTheBold.jpg" />
+    <Content Include="Screenshots\Gozzrem.jpg" />
+    <Content Include="Screenshots\Grafdrek.JPG" />
+    <Content Include="Screenshots\Grafdrek.png" />
+    <Content Include="Screenshots\Groumpf.JPG" />
+    <Content Include="Screenshots\Groumpf.png" />
+    <Content Include="Screenshots\GroupeBabaCitrouille.JPG" />
+    <Content Include="Screenshots\GroupeBabaCitrouille.png" />
+    <Content Include="Screenshots\ikatiar.jpg" />
+    <Content Include="Screenshots\Ikatiar2.jpg" />
+    <Content Include="Screenshots\IkatiarKylaz.jpg" />
+    <Content Include="Screenshots\IoRZ.JPG" />
+    <Content Include="Screenshots\IoRZ.png" />
+    <Content Include="Screenshots\IoRZ2.JPG" />
+    <Content Include="Screenshots\IoRZ2.png" />
+    <Content Include="Screenshots\JaledDarShade.jpg" />
+    <Content Include="Screenshots\JunkBeast.JPG" />
+    <Content Include="Screenshots\JunkBeast.png" />
+    <Content Include="Screenshots\KeldorDekTorek.jpg" />
+    <Content Include="Screenshots\KlandiLOL.jpg" />
+    <Content Include="Screenshots\KlandiQae.jpg" />
+    <Content Include="Screenshots\KlandiTalisman.jpg" />
+    <Content Include="Screenshots\KlandiWaz.jpg" />
+    <Content Include="Screenshots\Lendiniara.JPG" />
+    <Content Include="Screenshots\Lendiniara.png" />
+    <Content Include="Screenshots\LendiRaid.JPG" />
+    <Content Include="Screenshots\LendiRaid.png" />
+    <Content Include="Screenshots\Lol.jpg" />
+    <Content Include="Screenshots\lolNuke.JPG" />
+    <Content Include="Screenshots\lolNuke.png" />
+    <Content Include="Screenshots\Motg.JPG" />
+    <Content Include="Screenshots\Motg.png" />
+    <Content Include="Screenshots\NewXP.JPG" />
+    <Content Include="Screenshots\NewXP.png" />
+    <Content Include="Screenshots\NygothScm.JPG" />
+    <Content Include="Screenshots\NygothScm.png" />
+    <Content Include="Screenshots\PendubkTheTurbulent.jpg" />
+    <Content Include="Screenshots\PendubkTheTurbulent2.jpg" />
+    <Content Include="Screenshots\poa_end.jpg" />
+    <Content Include="Screenshots\PoMPP.JPG" />
+    <Content Include="Screenshots\PoMPP.png" />
+    <Content Include="Screenshots\PoPzones.gif" />
+    <Content Include="Screenshots\Progenitor.JPG" />
+    <Content Include="Screenshots\Progenitor.png" />
+    <Content Include="Screenshots\Promenons.JPG" />
+    <Content Include="Screenshots\Promenons.png" />
+    <Content Include="Screenshots\psaii_epic.jpg" />
+    <Content Include="Screenshots\RaidXana.JPG" />
+    <Content Include="Screenshots\RaidXana.png" />
+    <Content Include="Screenshots\RCPhatLewt.JPG" />
+    <Content Include="Screenshots\RCPhatLewt.png" />
+    <Content Include="Screenshots\RingOfFear.JPG" />
+    <Content Include="Screenshots\RingOfFear.png" />
+    <Content Include="Screenshots\Rumblecrush.JPG" />
+    <Content Include="Screenshots\Rumblecrush.png" />
+    <Content Include="Screenshots\Servirtor of Luclin.jpg" />
+    <Content Include="Screenshots\Severilous.jpg" />
+    <Content Include="Screenshots\Severilous2.JPG" />
+    <Content Include="Screenshots\Severilous2.png" />
+    <Content Include="Screenshots\Shawl8.jpg" />
+    <Content Include="Screenshots\SleeperFirstDoor.jpg" />
+    <Content Include="Screenshots\SleeperFirstLoot.JPG" />
+    <Content Include="Screenshots\SleeperFirstLoot.png" />
+    <Content Include="Screenshots\SleeperFirstRaid.JPG" />
+    <Content Include="Screenshots\SleeperFirstRaid.png" />
+    <Content Include="Screenshots\SleeperPortal.jpg" />
+    <Content Include="Screenshots\SolnebkTheUnruly.jpg" />
+    <Content Include="Screenshots\SolnebkTheUnruly2.jpg" />
+    <Content Include="Screenshots\Telkorenar.jpg" />
+    <Content Include="Screenshots\Telkorenar2.jpg" />
+    <Content Include="Screenshots\The Beginning.JPG" />
+    <Content Include="Screenshots\TheDeepBridge.JPG" />
+    <Content Include="Screenshots\TheDeepBridge.png" />
+    <Content Include="Screenshots\Trakanon.JPG" />
+    <Content Include="Screenshots\Trakanon.png" />
+    <Content Include="Screenshots\Trial.jpg" />
+    <Content Include="Screenshots\TrialPpl.jpg" />
+    <Content Include="Screenshots\UneBonneSerie.JPG" />
+    <Content Include="Screenshots\UneBonneSerie.png" />
+    <Content Include="Screenshots\Velketor.jpg" />
+    <Content Include="Screenshots\Velketor2.jpg" />
+    <Content Include="Screenshots\VhaksizTheShade.JPG" />
+    <Content Include="Screenshots\VhaksizTheShade.png" />
+    <Content Include="Screenshots\Vindicator.jpg" />
+    <Content Include="Screenshots\Wipe.jpg" />
+    <Content Include="Screenshots\Xanamech.JPG" />
+    <Content Include="Screenshots\Xanamech.png" />
+    <Content Include="Screenshots\Yelinak.JPG" />
+    <Content Include="Screenshots\Yelinak.png" />
+    <Content Include="Screenshots\Zlandicar3.jpg" />
+    <Content Include="Screenshots\Zlandikar.jpg" />
+    <Content Include="Screenshots\Zlandikar2.jpg" />
+    <Content Include="Screenshots\Zordak.jpg" />
+    <Content Include="separator.jpg" />
+    <Content Include="showusers.html" />
+    <Content Include="styles.css" />
+    <Content Include="title_left.jpg" />
+    <Content Include="title_middle.jpg" />
+    <Content Include="title_right.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="News.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Screenshots" />
+  </ItemGroup>
+  <Import Project="$(PtvsTargetsFile)" Condition="Exists($(PtvsTargetsFile))" />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" Condition="!Exists($(PtvsTargetsFile))" />
+</Project>
