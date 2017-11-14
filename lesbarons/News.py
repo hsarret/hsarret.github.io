@@ -272,6 +272,11 @@ def recurseTraverseHierarchy(node, indent, level, printNext):
 
 from HTMLParser import HTMLParser
 
+verbosity = True
+
+def Message(text, force=False):
+    if verbosity or force:
+        print(text)
 
 # create a subclass and override the handler methods
 class MyHTMLParser(HTMLParser):
@@ -289,20 +294,27 @@ class MyHTMLParser(HTMLParser):
 
     def handle_starttag(self, tag, attrs):
         if len(attrs) > 0:
-            print "{}{} - {}".format(self.indent, tag, attrs)
+            Message("{}{} - {}".format(self.indent, tag, attrs))
         else:
-            print "{}{}".format(self.indent, tag)
+            Message("{}{}".format(self.indent, tag))
 
-        print "{} on {}".format(self.index, len(self.phaseTags[self.phase]))
+        if self.phase == 2:
+            if len(attrs) > 0:
+                print("{}Content: {} - {}".format(self.indent, tag, attrs))
+            else:
+                print("{}Content: {}".format(self.indent, tag))
 
-        if tag == self.phaseTags[self.phaseTagsIndex][self.index]:
-            self.index = self.index + 1
-            if self.index == len(self.phaseTags[self.phaseTagsIndex]):
-                self.phase = self.phase + 1
-                self.phaseTagsIndex = self.phaseTagsIndex + 1
+        Message("{} on {}".format(self.index, len(self.phaseTags[self.phaseTagsIndex])))
+
+        if self.phase < 2:
+            if tag == self.phaseTags[self.phaseTagsIndex][self.index]:
+                self.index = self.index + 1
+                if self.index == len(self.phaseTags[self.phaseTagsIndex]):
+                    self.phase = self.phase + 1
+                    self.phaseTagsIndex = ( self.phaseTagsIndex + 1 ) % len(self.phaseTags)
+                    self.index = 0
+            else:
                 self.index = 0
-        else:
-            self.index = 0
 
         self.currentTag = tag
         self.currentIndent = self.indent
@@ -312,7 +324,10 @@ class MyHTMLParser(HTMLParser):
         self.indent = self.indent[:-1]
         if self.indent == self.currentIndent and tag != self.currentTag:
             print "ERROR > {}".format(tag)
-        print "{}/{}".format(self.indent, tag)
+        Message("{}/{}".format(self.indent, tag))
+        if self.phase == 2:
+            if tag == self.phaseTags[1][len(self.phaseTags[1]) - 1]:
+                self.phase = 0
 
     def handle_data(self, data):
         # print type(data)
@@ -320,8 +335,11 @@ class MyHTMLParser(HTMLParser):
         cleanData = cleanData.replace("\n", "")
         cleanData = cleanData.strip()
         if len(cleanData) > 0:
-            if self.phase == 1 or self.phase == 3:
-                print '{}"{}"'.format(self.indent, cleanData)
+            if self.phase == 1:
+                print '{}Title: "{}"'.format(self.indent, cleanData)
+            elif self.phase == 2:
+                print '{}Content: "{}"'.format(self.indent, cleanData)
+
 
 
 
@@ -340,4 +358,5 @@ def ParseHtmlNews(filename):
     # recurseTraverseHierarchy2(xmldoc, indent, level, [0, "", False])
 
 
-ParseHtmlNews("news.html")
+# ParseHtmlNews("news.html")
+ParseHtmlNews("2002_decembre.html")
