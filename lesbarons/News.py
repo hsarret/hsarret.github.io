@@ -291,8 +291,10 @@ class MyHTMLParser(HTMLParser):
         self.index = 0
         self.phaseTagsIndex = 0
         self.phaseTags = [["body", "table",  "tr", "td", "div", "font", "td", "div", "font", "b", "span"], ["table", "tr", "td", "div", "font", "td", "div", "p", "font", "b"]]
+        self.tagsStack = []
 
     def handle_starttag(self, tag, attrs):
+        self.tagsStack.append(tag)
         if len(attrs) > 0:
             Message("{}{} - {}".format(self.indent, tag, attrs))
         else:
@@ -323,7 +325,19 @@ class MyHTMLParser(HTMLParser):
     def handle_endtag(self, tag):
         self.indent = self.indent[:-1]
         if self.indent == self.currentIndent and tag != self.currentTag:
-            print "ERROR > {}".format(tag)
+            print "ERROR > Closing {} but should be {}".format(tag, self.currentTag)
+            count = 0
+            print "ERROR > Still opened tags:".format(tag, self.currentTag)
+            for  currentTag in reversed(self.tagsStack):
+                if currentTag != tag:
+                    print "ERROR > \t{}".format(currentTag)
+                    count = count + 1
+                else:
+                    break
+            self.tagsStack = self.tagsStack[:-count]
+        else:
+            self.tagsStack = self.tagsStack[:-1]
+
         Message("{}/{}".format(self.indent, tag))
         if self.phase == 2:
             if tag == self.phaseTags[1][len(self.phaseTags[1]) - 1]:
