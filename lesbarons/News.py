@@ -1,5 +1,6 @@
 from xml.dom import minidom
 from xml.dom import Node
+from HTMLParser import HTMLParser
 
 kNewsTitle = "title"
 kNewsContent = "content"
@@ -270,13 +271,14 @@ def recurseTraverseHierarchy(node, indent, level, printNext):
         recurseTraverseHierarchy2(currentNode, indent, level, printNext)
     indent = indent[:-1]
 
-from HTMLParser import HTMLParser
 
-verbosity = True
+verbosity = False
+
 
 def Message(text, force=False):
     if verbosity or force:
         print(text)
+
 
 # create a subclass and override the handler methods
 class MyHTMLParser(HTMLParser):
@@ -313,7 +315,7 @@ class MyHTMLParser(HTMLParser):
                 self.index = self.index + 1
                 if self.index == len(self.phaseTags[self.phaseTagsIndex]):
                     self.phase = self.phase + 1
-                    self.phaseTagsIndex = ( self.phaseTagsIndex + 1 ) % len(self.phaseTags)
+                    self.phaseTagsIndex = (self.phaseTagsIndex + 1) % len(self.phaseTags)
                     self.index = 0
             else:
                 self.index = 0
@@ -328,7 +330,7 @@ class MyHTMLParser(HTMLParser):
             print "ERROR > Closing {} but should be {}".format(tag, self.currentTag)
             count = 0
             print "ERROR > Still opened tags:".format(tag, self.currentTag)
-            for  currentTag in reversed(self.tagsStack):
+            for currentTag in reversed(self.tagsStack):
                 if currentTag != tag:
                     print "ERROR > \t{}".format(currentTag)
                     count = count + 1
@@ -353,8 +355,6 @@ class MyHTMLParser(HTMLParser):
                 print '{}Title: "{}"'.format(self.indent, cleanData)
             elif self.phase == 2:
                 print '{}Content: "{}"'.format(self.indent, cleanData)
-
-
 
 
 def ParseHtmlNews(filename):
